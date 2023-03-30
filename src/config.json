@@ -1,7 +1,7 @@
 {
   "secretKey": "8KtworSulXYbbXKej0e9SjlcT3Y3UAeZsLx42Jx1CByXw4Fose",
   "host": "http://localhost",
-  "port": "1000",
+  "port": "21465",
   "deviceName": "Chrome",
   "poweredBy": "Chrome",
   "startAllSession": true,

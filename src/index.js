@@ -91,7 +91,7 @@ export function initServer(serverOptions) {
 
   createFolders();
 
-  http.listen(PORT, () => {
+  http.listen(PORT, '127.0.0.1', () => {
     logger.info(`Server is running on port: ${PORT}`);
     logger.info(`\x1b[31m Visit ${serverOptions.host}:${PORT}/api-docs for Swagger docs`);
     logger.info(`WPPConnect-Server version: ${version}`);
